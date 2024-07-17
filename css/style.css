@@ -1,0 +1,134 @@
+html, body{
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+}
+
+.logomarca {
+    width: 100px;
+    height: 65px;
+    background: url("../Imagens/logo.png") no-repeat 0 0;
+    display: block;
+}
+
+.logo{
+    float: left;
+}
+
+.menu{
+    float: right;
+}
+
+li {
+  list-style-type: none;
+}
+
+.menu__li{
+    float: left;
+    margin: 0 10px;
+}
+
+.menu__link{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+.clear{
+    clear: both;
+}
+
+.center{
+    width: 1110px;
+    margin:  0 auto;
+
+}
+
+.apresentação{
+    background: url("../Imagens/background.png") no-repeat center;
+    padding-top: 0px;
+}
+
+.bt-sigin{
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+
+.bt-sigup{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 4px;
+    background: #0c0ce94d;
+}
+
+.apresentação__box{
+    padding-top: 100px;
+}
+
+.apresentacao__descricao{
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+}
+
+.apresentacao__cidade{
+    padding: 1000px, 1000px;
+    float: left;
+    width: 50%;
+}
+
+img{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    left: 50%;
+}
+
+.title-apresentacao{
+    color: #3B3322;
+    font-size: 44px;
+    line-height: 48px;
+}
+
+.title-apresentacao strong{
+    font-weight: 600;
+
+}
+
+.descricao-apresentacao{
+    color: #544837;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 40px 0 30px 0;
+}
+
+.bt-red{
+    background-color: #0c0ce94d;
+    font-size: 16px;
+    font-weight: 600;
+    color:#ffffff;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 4px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+.box-icone{
+    width: 80px;
+    height: 80px;
+    border: 2px #0c0ce94d;
+    border-radius: 10px;
+    text-align: center;
+}
