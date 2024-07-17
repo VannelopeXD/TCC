@@ -1,5 +1,50 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 html, body{
-    margin: 0%;
+    margin: 0px;
     font-family: "Poppins", sans-serif;
 }
 
@@ -8,6 +53,11 @@ html, body{
     height: 65px;
     background: url("../Imagens/logo.png") no-repeat 0 0;
     display: block;
+}
+
+.teste{
+    display: flex;
+    flex-direction: row;
 }
 
 .logo{
@@ -28,10 +78,10 @@ li {
 }
 
 .menu__link{
-    color: #ffffff;
+    color: #000;
     text-decoration: none;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 15px;
+    line-height: 20px;
 
 }
 
@@ -47,11 +97,11 @@ li {
 
 .apresentação{
     background: url("../Imagens/background.png") no-repeat center;
-    padding-top: 0px;
+    padding-top: 40px;
+    margin: 0px;
 }
 
 .bt-sigin{
-    border: 1px solid #ffffff;
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
@@ -59,6 +109,7 @@ li {
     padding: 10px 30px;
     border-radius: 4px;
     margin-left: 30px;
+    background: #4B088A;
 }
 
 .bt-sigup{
@@ -68,12 +119,12 @@ li {
     color: #ffffff;
     padding: 10px 30px;
     border-radius: 4px;
-    background: #0c0ce94d;
+    background: #4B088A;
 }
 
-.apresentação__box{
+/* .apresentação__box{
     padding-top: 100px;
-}
+} */
 
 .apresentacao__descricao{
     width: 100%;
@@ -81,21 +132,22 @@ li {
     padding-top: 60px;
 }
 
-.apresentacao__cidade{
+/* .apresentacao__cidade{
     padding: 1000px, 1000px;
     float: left;
     width: 50%;
-}
+}  */
 
-img{
+.teste2{
     position: absolute;
     width: 500px;
     height: auto;
     left: 50%;
+    float: left;
 }
 
 .title-apresentacao{
-    color: #3B3322;
+    color: #4B088A;
     font-size: 44px;
     line-height: 48px;
 }
@@ -106,14 +158,14 @@ img{
 }
 
 .descricao-apresentacao{
-    color: #544837;
+    color: #000;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 25px;
     margin: 40px 0 30px 0;
 }
 
 .bt-red{
-    background-color: #0c0ce94d;
+    background-color: #4B088A;
     font-size: 16px;
     font-weight: 600;
     color:#ffffff;
@@ -125,10 +177,12 @@ img{
     cursor: pointer;
 }
 
-.box-icone{
+/* Se eu coloco "Box-icone" altera o layout html  */
+
+ .box__icone{
     width: 80px;
     height: 80px;
-    border: 2px #0c0ce94d;
+    border: 20px #0c0ce94d;
     border-radius: 10px;
     text-align: center;
 }
