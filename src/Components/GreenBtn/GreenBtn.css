@@ -1,0 +1,10 @@
+#green-btn {
+  background-color: 'red';
+  /* background-color: var(--primary-color); */
+  border-color: var(--primary-color);
+}
+
+#green-btn:hover {
+ background-color: var(--secondary-color);
+ border-color: var(--secondary-color);
+}

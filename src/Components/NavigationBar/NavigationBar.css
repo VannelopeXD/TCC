@@ -1,0 +1,41 @@
+:root {
+    --primary-bg-color: #1e90ff; /* Azul claro */
+    --secondary-bg-color: #1c86ee; /* Azul um pouco mais escuro */
+    --text-color: #ffffff; /* Texto branco */
+    --highlight-color: #32cd32; /* Verde claro para destaques */
+}
+
+/* Estilos gerais da navbar */
+.navbar {
+    background-color: var(--primary-bg-color); /* Azul claro */
+}
+
+.navbar .navbar-toggler {
+    border-color: var(--text-color);
+}
+
+.navbar .navbar-toggler-icon,
+.navbar .navbar-brand img {
+    filter: invert(); /* Inverte as cores para destacar em fundo azul */
+}
+
+.navbar .navbar-brand img {
+    transform: rotate(45deg);
+    width: 1.5rem;
+}
+
+/* Estilos para telas menores */
+@media screen and (max-width: 576px) {
+    .navbar {
+        background-color: var(--secondary-bg-color); /* Tom mais escuro no fundo responsivo */
+    }
+
+    .navbar .navbar-toggler-icon {
+        filter: invert(1); /* Assegura que o ícone fique visível em fundo escuro */
+    }
+
+    .navbar .navbar-brand {
+        margin-left: auto;
+     
+    }
+}
