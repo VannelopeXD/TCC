@@ -5,6 +5,6 @@
 }
 
 #green-btn:hover {
- background-color: var(--secondary-color);
+ background-color: #00bfff;
  border-color: var(--secondary-color);
 }
