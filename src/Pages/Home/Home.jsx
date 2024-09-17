@@ -6,6 +6,9 @@ import LastHolidaySection from "../../Components/LastHolidaysSection/LastHoliday
 import RecommendedSection from "../../Components/RecommendedSection/RecommendedSection";
 import HolidayPlanSection from "../../Components/HolidayPlanSection/HolidayPlanSection";
 import FavouritesSection from "../../Components/FavouritesSection/FavouritesSection";
+import RecentHolidays from "../../Components/RecentHolidays/RecentHolidays";
+import NeedInspiration from "../../Components/NeedInspiration/NeedInspiration";
+
 
 
 
@@ -20,6 +23,8 @@ function Home(){
             </div>
             <HolidayPlanSection itemHolidayPlanTitle='Planeje suas férias 😎'/>
             <FavouritesSection/>
+            <RecentHolidays/>
+            <NeedInspiration/>
         </div>
     )
 }
