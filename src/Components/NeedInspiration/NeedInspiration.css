@@ -1,0 +1,22 @@
+.need-inspiration {
+    background-size: cover;
+    background-position: center;
+}
+
+.need-inspiration .bg-shape {
+    width: 50%;
+    background-color: #1e90ff; /* Cor de fundo */
+    background-size: cover;
+    position: absolute; /* Certifique-se de usar o position */
+    bottom: 0;
+    top: 0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+@media screen and (max-widht: 768px) {
+    .need-inspiration .bg-shape {
+        width: 100%;
+        
+    }
+}

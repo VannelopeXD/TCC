@@ -10,3 +10,7 @@
     background-repeat: no-repeat; /* Evita que a imagem se repita */ 
     overflow: hidden; /* Garante que o conteúdo respeite as bordas arredondadas */
 }
+
+.home-page .need-inspiration {
+    background-image: url(../../Assets/Images/need-inspiration-bg.jpg);
+}
