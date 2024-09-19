@@ -22,10 +22,10 @@ function NavigationBar() {
                 </Navbar.Toggle>
                 <Navbar.Collapse id='basic-navbar-nav'>
                     <Nav className='me-auto w-100 justify-content-center'>
-                        <Nav.Link href='/' className='text-light'>Home</Nav.Link>
-                        <Nav.Link href='/Holidays' className='text-light'>Holidays</Nav.Link>
-                        <Nav.Link href='/City-breaks' className='text-light text-capitalize'>City breaks</Nav.Link>
-                        <Nav.Link href='/Destinos' className='text-light'>Destinations</Nav.Link>
+                        <Nav.Link href='/' className='text-light'>Inicio</Nav.Link>
+                        <Nav.Link href='/Holidays' className='text-light'>Roteiros</Nav.Link>
+                        <Nav.Link href='/City-breaks' className='text-light text-capitalize'>Pontos Turisticos</Nav.Link>
+                        <Nav.Link href='/Destinos' className='text-light'>Destinos</Nav.Link>
                     </Nav>
                     <Button variant='light'>
                         <Link to='/' className='text-decoration-none text-capitalize text-dark text-nowrap'>Sign in</Link>

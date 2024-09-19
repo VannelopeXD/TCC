@@ -1,10 +1,10 @@
 #green-btn {
   background-color: 'red';
   /* background-color: var(--primary-color); */
-  border-color: var(--primary-color);
+  /*border-color: var(--primary-color);*/ 
 }
 
 #green-btn:hover {
  background-color: #00bfff;
  border-color: var(--secondary-color);
-}
+} 

@@ -1,0 +1,10 @@
+.holidays-page .second-hero-section {
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(../../Assets/Images/holidays-hero-bg.jpg)
+}   
+
+.holidays-page .need-inspiration {
+    background-image: url(../../Assets/Images/holidays-need-inspiration-bg.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}

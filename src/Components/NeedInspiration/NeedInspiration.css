@@ -1,22 +1,16 @@
-.need-inspiration {
-    background-size: cover;
-    background-position: center;
-}
-
 .need-inspiration .bg-shape {
     width: 50%;
-    background-color: #1e90ff; /* Cor de fundo */
+    background-color: rgba(30, 144, 255, 0.8); /* Cor de fundo mais clara com transparência */
     background-size: cover;
-    position: absolute; /* Certifique-se de usar o position */
+    position: absolute; /* Uso de position para sobrepor */
     bottom: 0;
     top: 0;
     border-radius: 10px;
     padding: 20px;
 }
 
-@media screen and (max-widht: 768px) {
+@media screen and (max-width: 768px) { /* Corrigindo um pequeno erro de digitação aqui de 'widht' para 'width' */
     .need-inspiration .bg-shape {
         width: 100%;
-        
     }
 }
