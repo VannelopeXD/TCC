@@ -1,10 +1,16 @@
 .holidays-page .second-hero-section {
-    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(../../Assets/Images/holidays-hero-bg.jpg)
-}   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../../Assets/Images/holidays-hero-bg.jpg);
+}
 
-.holidays-page .need-inspiration {
+.holidays-page .need-inspiration-section {
     background-image: url(../../Assets/Images/holidays-need-inspiration-bg.jpg);
-    height: 500px;
+}
+
+.holidays-page .holiday-plan-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.75)), url(../../Assets/Images/holidays-holiday-plan-bg.jpg);
     background-position: center;
-    background-size: cover;
+}
+
+.holidays-page .recommended-section .container {
+    background-image: url(../../Assets/Images/holidays-recommended-section-bg.jpg);
 }
